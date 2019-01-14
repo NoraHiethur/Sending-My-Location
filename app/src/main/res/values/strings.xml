@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sending My Location</string>
+    <string name="label_login">Login</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="label_email">Email</string>
+    <string name="label_sign_in">Sign in</string>
+    <string name="label_sign_up">Sign up</string>
+    <string name="label_for_an_account">\u0020for an account?</string>
+    <string name="label_create_account">Create Account</string>
+    <string name="label_send_my_location">Send My Location</string>
+    <string name="label_title_activity_maps">Map</string>
+    <string name="label_require_location_permission">Location permission is required to get your location</string>
+</resources>

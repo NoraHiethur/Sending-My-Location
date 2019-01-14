@@ -1,0 +1,70 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--TextView-->
+    <style name="SendingMyLocation.Base.Widget.TextView" parent="Base.Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_size_extra_small</item>
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+    <style name="SendingMyLocation.Base.Widget.TextView.SignUp">
+        <item name="android:textColor">@color/colorTeal600</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="SendingMyLocation.Base.Widget.TextView.Toolbar">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <!--Button-->
+    <style name="SendingMyLocation.Base.Widget.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_extra_small</item>
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="SendingMyLocation.Base.Widget.Button.DefaultButton">
+        <item name="android:background">@drawable/bg_default_button</item>
+    </style>
+
+    <!--TextInputLayout-->
+    <style name="SendingMyLocation.Base.Widget.TextInputLayout" parent="Base.Widget.MaterialComponents.TextInputLayout">
+        <item name="boxStrokeColor">@color/colorTeal800</item>
+    </style>
+
+    <!--TextInputEditText-->
+    <style name="SendingMyLocation.Base.Widget.TextInputEditText" parent="Base.Widget.MaterialComponents.TextInputEditText">
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="SendingMyLocation.Base.Widget.TextInputEditText.UsernameBox">
+        <item name="android:singleLine">true</item>
+        <item name="android:hint">@string/label_username</item>
+    </style>
+
+    <style name="SendingMyLocation.Base.Widget.TextInputEditText.PasswordBox">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">@string/label_password</item>
+    </style>
+
+    <style name="SendingMyLocation.Base.Widget.TextInputEditText.EmailBox">
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:hint">@string/label_email</item>
+    </style>
+
+</resources>

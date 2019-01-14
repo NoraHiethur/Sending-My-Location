@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="@dimen/default_inset_size_extra_small">
+    <ripple android:color="@color/colorWhite">
+        <item>
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/default_corners_size" />
+                <solid android:color="@color/colorTeal600" />
+            </shape>
+        </item>
+    </ripple>
+</inset>
